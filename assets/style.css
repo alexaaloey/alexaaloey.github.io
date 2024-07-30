@@ -1,0 +1,53 @@
+*{
+    font-family: "Kalam", cursive;
+}
+header{
+    background-color: #FF0303;
+    justify-content: center;
+   
+}
+header a{
+    text-align: center;
+}
+.nav{
+    margin-left: 35%;
+    margin-right: 25%
+}
+ header span{
+    color:#2E3840;
+    font-size: 50px;
+ }
+.nav-item a{
+    color:#2E3840;
+   font-size: 120%; 
+}
+
+.nav-item a:visited{
+    color:#2E3840;
+
+}
+.nav-item a:hover{
+    color:#2E3840;
+   }
+#boton-nav{
+    background-color: #2E3840;
+   
+}
+.bi{
+    background-color: #FF0303;
+    width: 35px;
+    border-radius: 30px;
+    font-size: 27px;
+
+}
+.img-proyecto1{
+    background-image: url('assets/clon-pinterest.png');
+    background-size: 440px;
+    background-repeat: no-repeat;
+    background-blend-mode:screen ;
+}
+.img-proyecto1 .d-flex.flex-column {
+    position: relative;
+    z-index: 2;
+    }
+
