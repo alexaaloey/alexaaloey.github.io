@@ -2,41 +2,45 @@
     font-family: "Kalam", cursive;
 }
 header{
-    background-color: #FF0303;
+    background-color: #2D4263;
     justify-content: center;
    
 }
 header a{
     text-align: center;
 }
-.nav{
+.header-nav{
     margin-left: 35%;
     margin-right: 25%
 }
  header span{
-    color:#2E3840;
-    font-size: 50px;
+    color:#ECDBBA;
+    font-size: 55px;
  }
+
+ #habilidades{
+    background-color: #ECDBBA;
+ }
+ 
 .nav-item a{
-    color:#2E3840;
+    color:#ECDBBA;
    font-size: 120%; 
 }
 
 .nav-item a:visited{
-    color:#2E3840;
+    color:#ECDBBA;
 
 }
 .nav-item a:hover{
-    color:#2E3840;
+    color:#ECDBBA;
    }
 #boton-nav{
-    background-color: #2E3840;
+    background-color: #ECDBBA;
    
 }
 .bi{
-    background-color: #FF0303;
-    width: 35px;
-    border-radius: 30px;
+    color: #2D4263;
+  
     font-size: 27px;
 
 }
@@ -50,4 +54,17 @@ header a{
     position: relative;
     z-index: 2;
 }
+footer .icon-footer{
+    justify-content: center;
+}
 
+footer{
+    background-color: #2D4263;
+}
+footer .icon-footer i{
+    color:#C84B31;
+}
+
+footer p a{
+    color:white;
+}
