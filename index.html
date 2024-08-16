@@ -45,25 +45,29 @@
   <main>
 
     <section id="about-me">
-      <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4 " id="photo" src="assets/yop.jpg" alt="" width="200">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="assets/yop.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="300" loading="lazy" style="border-radius: 50%;">
 
-        <h1 class="display-5 fw-bold text-body-emphasis">Alexa Chamé</h1>
-        
-        <div id="app"></div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Alexa Chamé</h1>
+            <div id="app"></div>
 
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Hola soy Alexa,estudio ingenieria en Sistemas Computacionales;
-            actualmente me encuentro realizando el curso "TC PRO DEVELOPER WEB FRONT-END" de Tecnolochicas Pro, esto
-            será un portaforlio con mis datos acerca de mi incursión, aprendizaje y proyectos futuros en el mundo del
-            desarrollo web.</p>
+            <p class="lead">Hola soy Alexa,estudio ingenieria en Sistemas Computacionales;
+              actualmente me encuentro realizando el curso "TC PRO DEVELOPER WEB FRONT-END" de Tecnolochicas Pro, esto
+              será un portaforlio con mis datos acerca de mi incursión, aprendizaje y proyectos futuros en el mundo del
+              desarrollo web.</p>
 
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          
-            <button type="button" class="btn btn-lg px-4" style="background-color:#ECDBBA">Mi Trayectoria</button>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="https://drive.google.com/file/d/1LDWEvILWU3jJikEqfVpQtX80xeqfCzfu/view?usp=sharing" target="_blank" class="btn btn-lg px-4 me-md-2" style="background-color:#ECDBBA">Mi CV</a>
+              </div>
+              
           </div>
         </div>
       </div>
+ 
     </section>
 
     <section id="habilidades">
@@ -116,10 +120,11 @@
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
           <div class="col">
-            <div class="img-proyecto1 card card-cover h-59 overflow-hidden text-bg-secondary rounded-4 shadow-lg"
-              >
+            <div class="img-proyecto1 card card-cover h-59 overflow-hidden text-bg-secondary rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" <a href="#https://github.com/alexaaloey/pinterest-clon" target="_blank"></a>Clon de Pinterest </h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  <a href="https://github.com/alexaaloey/pinterest-clon" target="_blank" class="text-dark text-decoration-none">Clon de Pinterest</a>
+                </h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="assets/clon-pinterest.png" alt="min-image" width="40" height="40"
@@ -132,13 +137,15 @@
           </div>
 
           <div class="col">
-            <div class="img-proyecto1 card card-cover h-59 overflow-hidden text-bg-secondary rounded-4 shadow-lg"
+            <div class="img-proyecto2 card card-cover h-59 overflow-hidden text-bg-secondary rounded-4 shadow-lg"
               >
               <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Prototipo de página web</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> 
+                  <a href="https://drive.google.com/file/d/1n6npBm2IFOFQPEyBt4RuQYFN1qYMYFDc/view?usp=sharing" target="_blank" class="text-dark text-decoration-none">Página web de ventas</a>
+                  </h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img src="assets/clon-pinterest.png" alt="min-image" width="40" height="40"
+                    <img src="assets/CAP.png" alt="min-image" width="40" height="40"
                       class="rounded-circle border border-white">
                   </li>
                
@@ -146,24 +153,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col">
-            <div class="img-proyecto1 card card-cover h-59 overflow-hidden text-bg-secondary rounded-4 shadow-lg"
-              >
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="assets/clon-pinterest.png" alt="min-image" width="50" height="50"
-                      class="rounded-circle border border-white">
-                  </li>
-                 
-                </ul>
-              </div>
-            </div>
-          </div>
-
-       
         </div>
       </div>
 
@@ -177,49 +166,39 @@
           <div class="carousel-item active">
             <div class="d-flex justify-content-center">
             <div class="card border-0" style="width: 18rem;">
-              <img src="assets/Photo.jpeg" class="rounded-circle card-img-top" alt="...">
+              <img src="assets/tecchi.jpg" class="rounded-circle card-img-top" alt="...">
               <div class="card-body text-center">
-                <h5 class="card-title text-center">Card title</h5>
+                <h5 class="card-title text-center">Mis inicios</h5>
                 <div class="card-header">
-                  Featured
+                  Experiencia Propia
                 </div>
-                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">He comenzado mi viaje como desarrollador web, al principio estaba lleno de incertidumbre y dudas. No sabía por dónde empezar y me sentía abrumado por la cantidad de tecnologías y lenguajes de programación disponibles. Sin embargo, decidí tomar el primer paso y me inscribí en un curso en línea de HTML y CSS. A medida que avanzo, me doy cuenta de que la clave para aprender a programar era la práctica constante y la paciencia. El curso de Tecnolochicas Pro me a hecho decidir hacía mi incursión en el desarrollo web. </p>
               </div>
             </div>
             </div>
           </div>
           <!-- Card -->
-          <div class="carousel-item">
-            <div class="d-flex justify-content-center">
-            <div class="card border-0" style="width: 18rem;">
-              <img src="assets/fotoroca.jpg" class="rounded-circle card-img-top" alt="...">
-              <div class="card-body text-center">
-                <h5 class="card-title text-center">Card title</h5>
-                <div class="card-header">
-                  Featured
-                </div>
-                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            </div>
-          </div>
+       
           <!-- card -->
           <div class="carousel-item">
             <div class="d-flex justify-content-center">
             <div class="card border-0" style="width: 18rem;">
-              <img src="assets/Photo.jpeg" class="rounded-circle card-img-top" alt="...">
+              <img src="assets/TEQ.png" class="rounded-circle card-img-top" alt="...">
               <div class="card-body text-center">
-                <h5 class="card-title text-center">Card title</h5>
+                <h5 class="card-title text-center">Colaboración</h5>
                 <div class="card-header">
-                  Featured
+                  By Estefanía Luna
                 </div>
-                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">Hemos tenido la oportunidad de trabajar en varios proyectos y actividades que realmente han demostrado tu gran trabajo en equipo.
+                  Me gusta cómo siempre aportas ideas, lo que hace que el ambiente sea más creativo y divertido.
+                  Además de que es una persona analítica, lo que ayuda a hacer un mejor trabajo</p>
               </div>
             </div>
             </div>
           </div>
          
         </div>
+
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -229,6 +208,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
       </section>
 
     <section id="contacto">

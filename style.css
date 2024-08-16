@@ -54,6 +54,12 @@ header a{
     position: relative;
     z-index: 2;
 }
+.img-proyecto2{
+    background-image: url('assets/CAP.png');
+    background-size: 440px;
+    background-repeat: no-repeat;
+    background-blend-mode:screen ;
+}
 footer .icon-footer{
     justify-content: center;
 }
